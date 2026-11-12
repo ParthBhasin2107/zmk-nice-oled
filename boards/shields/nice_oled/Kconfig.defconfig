@@ -545,6 +545,10 @@ config NICE_OLED_WIDGET_BATTERY_CUSTOM_Y
     default 50 if NICE_OLED_ON
     default 19 if NICE_EPAPER_ON
     default 50
+
+config NICE_OLED_WIDGET_BATTERY_CENTER_WIDTH
+    int "Center battery text within this many pixels from the X position (0 = left-aligned)"
+    default 0
 ##}}}
 
 ## PROFILE WIDGET POSITION {{{
